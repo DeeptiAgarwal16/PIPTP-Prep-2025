@@ -28,9 +28,9 @@ End function fun()
 
 ## Approach
 
-given w=40 and x=4
+Given w=40 and x=4
   x % w => 40 % 4 == 0
   if condition satisfied so y becomes 1.
 
 
-## Correct Answer: **A. 1**
+## Correct Answer: **1**
