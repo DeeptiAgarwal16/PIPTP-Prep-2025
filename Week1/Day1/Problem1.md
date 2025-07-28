@@ -1,4 +1,4 @@
-## Problem Statement
+## Problem
 
 **What will be the output of the following pseudo code for `w = 40` and `x = 4`?**
 
@@ -29,8 +29,8 @@ End function fun()
 ## Approach
 
 Given w=40 and x=4
-  x % w => 40 % 4 == 0
-  if condition satisfied so y becomes 1.
+  - x % w => 40 % 4 == 0
+  - if condition satisfied so y becomes 1.
 
 
 ## Correct Answer: **1**
