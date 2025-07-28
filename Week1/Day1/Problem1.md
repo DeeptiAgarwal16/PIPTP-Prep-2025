@@ -1,24 +1,36 @@
-Problem: 
-What will be the output of the following pseudo code of fun for w=40 and x=4?
+## Problem Statement
+
+**What will be the output of the following pseudo code for `w = 40` and `x = 4`?**
+
+```pseudo
 void fun(Integer w, Integer x)
-Integer y
-Set y=0
-if (x mod w EQUALS 0 || w mod x EQUALS 0)
-  y-y+1
-Else
-  y=y+10
-End if
-Print y
+    Integer y
+    Set y = 0
+    if (x mod w EQUALS 0 || w mod x EQUALS 0)
+        y = y + 1
+    Else
+        y = y + 10
+    End if
+    Print y
 End function fun()
+```
 
-Options: 
-A. 1
-B. 11
-C. 10
-D. 2
+---
 
-Solution: given w=40 and x=4
-x % w => 40 % 4 == 0
-if condition satisfied so y becomes 1.
+## Options
 
-Answer: 1
+- A. 1  
+- B. 11  
+- C. 10  
+- D. 2  
+
+---
+
+## Approach
+
+given w=40 and x=4
+  x % w => 40 % 4 == 0
+  if condition satisfied so y becomes 1.
+
+
+## Correct Answer: **A. 1**
